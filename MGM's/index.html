@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MGM's College Of Computer Science and IT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@300&family=Sacramento&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="nav-bar h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <li> <a href="#Home">Home</a> </li>
+            <li> <a href="#contact">About</a> </li>
+            <li> <a href="#Academics">Academics</a> </li>
+            <li> <a href="#Departments">Departments</a> </li>
+            <li> <a href="#Campus Life">Campus</a> </li>
+            <li> <a href="#Facilities">Facilities</a> </li>
+            <li> <a href="#Achievements">Achievements</a> </li>
+            <li> <a href="#Staff">Staff</a> </li>
+        </ul>
+        <div class="nav-right v-class-resp">
+            <input type="search" name="search" id="search">
+            <button class="btn btn-sm">search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <div id="csit" class="text-bg text-bg-resp text-bg-resp-2"></div>
+                <div class="text-small" id="csit-content"></div>
+                <div class="buttons">
+                    <button class="btn">Like</button>
+                    <button class="btn">Like</button>
+                </div>
+            </div>
+
+            <div class="secondHalf">
+                <img src="img/fav.png" alt="Faltu-Image">
+            </div>
+        </div>
+    </section>
+
+    <section class="secRight">
+        <div class="para">
+            <div class="sectionTag text-bg text-bg-resp" id="wel-to-mgm"></div>
+            <div class="sectionSubTag text-small" id="wel-to-mgm-content"></div>
+        </div>
+        <div class="thumbnail">
+            <img src="img/fav.png" alt="Faltu-Image" class="imgThumb">
+        </div>
+    </section>
+
+
+    <section class="secLeft">
+        <div class="para">
+            <div class="sectionTag text-bg " id="no-rag"></div>
+            <div class="sectionSubTag text-small" id="no-rag-content"></div>
+        </div>
+        <div class="thumbnail">
+            <img src="img/rag.gif" alt="Faltu-Image" class="imgThumb">
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="text-center" id="contact-us"></div>
+        <div class="form">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <input type="number" name="number" id="number" placeholder="Enter Your Number">
+            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+            <textarea name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your query."></textarea>
+            <br>
+            <button class="btn btn-dark">Submit</button>
+        </div>
+    </section>
+
+    <footer id="copy-section" class="background"></footer>
+
+    <script>
+
+        burger = document.querySelector('.burger')
+        navBar = document.querySelector('.nav-bar')
+        rightNav = document.querySelector('.nav-right')
+        navList = document.querySelector('.nav-list')
+
+        burger.addEventListener('click', () => {
+            rightNav.classList.toggle('v-class-resp');
+            navList.classList.toggle('v-class-resp');
+            navBar.classList.toggle('h-nav-resp');
+        })
+
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

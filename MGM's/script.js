@@ -1,0 +1,8 @@
+document.getElementById('no-rag').innerHTML = "<p>Say No To Ragging</p>"
+document.getElementById('wel-to-mgm').innerHTML = "<p>Welcome To MGM</p>"
+document.getElementById('copy-section').innerHTML = "<p>Copyright &copy; 2022 All rights are reserved</p>"
+document.getElementById('wel-to-mgm-content').innerHTML = "<p>Mahatma Gandhi Mission's College of Computer Science and Information Technology is located at Nanded, a district place in Maharashtra. The College established in the year 2000. It is approved by Government of Maharashtra and is affiliated to Swami Ramanand Teerth Marathwada University, Nanded. Nanded city is well connected by road and rail to all-important cities in India. It has unique historical importance of being the place of Court and Congregation of 10th Guru of Sikhs Shri Guru Gobind Singhji. Pilgrims all over the world visits Nanded.</p>"
+document.getElementById('no-rag-content').innerHTML = "<p>Ragging - A violation of Human Rights. Ragging is strictly prohibited on campus & off campus. Join hands in making the college campus free from ragging. Stop ragging. Stop this... Thousands Say No to Ragging.</p>"
+document.getElementById('contact-us').innerHTML="<h2>contact us</h2>"
+document.getElementById('csit').innerHTML="<p>College Of Computer Science and IT</p>"
+document.getElementById('csit-content').innerHTML="<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis aut molestias sint perferendis eius nemo deleniti, commodi accusamus esse doloremque!</p>"
